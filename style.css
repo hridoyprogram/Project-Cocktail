@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+/* Header Section */
+header{
+    background: #3D5781;
+    width:100%;
+    height:120px;
+    display:flex;
+    
+}
+
+header .logo{
+    font-size:28px;
+    color:#fff;
+    width:400px;
+    margin:30px 0px 0px 30px;
+}
+
+header .login button{
+    font-size:25px;
+    color:#fff;
+    background: none;
+    border:3px solid #fff;
+    outline:none;
+    font-weight:bold;
+    width:150px;
+    height:60px;
+    margin:35px 0px 0px 350px;
+}
+
+/* Header section end */
+
+
+
+/* Main section started */
+.main{
+    width:100%;
+    height:500px;
+    margin-top:-2px;
+    padding-top:20px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background: #3D5781;
+    color:#fff;
+}
+
+.main .text{
+    width:450px;
+    margin-left:-10px;
+}
+
+.main .text h3{
+    font-size:45px;
+}
+
+.main .text p{
+    font-size:20px;
+    line-height:28px;
+    margin:20px 0px 20px 0px;
+    opacity:0.8;
+}
+
+.main .text button{
+    font-size:25px;
+    color:#fff;
+    background: none;
+    border:3px solid #fff;
+    outline:none;
+    font-weight:bold;
+    width:150px;
+    height:60px;
+    
+}
+
+.main .image {
+    width:380px;
+    
+}
+
+
+
+
+.main .image img{
+    width:377px;
+    height:500px;
+    margin:-110px 0px 0px 30px;
+}
+
+
+/* Main section end */
+
+
+/* Service box started */
+
+.serviceBox{
+    width:100%;
+    height:800px;
+    background: #EDF7FF;
+    padding-top:20px;
+    
+}
+
+.serviceBox h2{
+    text-align:center;
+    font-size:40px;
+}
+
+.serviceBox .box{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-row-gap:40px;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:50px;
+    
+}
+
+.box .boxItem{
+    width:400px;
+    height:260px;
+    border:2px solid black;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.boxItem i{
+    width:30px;
+    height:30px;
+    font-size:30px;
+    border:2px solid black;
+    padding:20px;
+    border-radius:50%;
+}
+
+
+.boxItem h3{
+    font-size:25px;
+    margin:20px 0px;
+   
+    
+}
+
+.boxItem p{
+    font-size:20px;
+    line-height:30px;
+}
+/* service box end */
+
+
+/* About Section start */
+.about{
+    width:100%;
+    height:700px;
+    background:#edeg77;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+
+.about .image{
+    width:500px;
+}
+
+.about .image img{
+    width:500px;
+    height:500px;
+    border-radius:10px;
+}
+
+.about .text{
+    width:400px;
+    margin-left:30px;
+}
+
+.about .text h3{
+    font-size:50px;
+}
+.about .text p{
+    font-size:20px;
+    line-height:34px;
+    margin:25px 0px;
+    
+}
+
+.about button{
+    font-size:22px;
+    color:#000;
+    background: none;
+    border:2px solid #000;
+    outline:none;
+    font-weight:bold;
+    width:150px;
+    height:60px;
+}
+
+/* About Section end */
+
+
+/* Team section start */
+
+.team{
+    width:100%;
+    height:770px;
+    background: #edf7ff;
+    padding-top:50px;
+}
+
+.team span{
+    display:block;
+    text-align:center;
+    font-size:25px;
+}
+
+.team h3{
+    font-size:50px;
+    text-align:center;
+    margin:10px 0px;
+}
+
+.member{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    text-align:center;
+    grid-row-gap:80px;
+    margin-top:50px;
+    
+}
+.memberList img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    box-shadow:2px 2px 30px rgba(0,0,0,0.2);
+}
+
+.memberList p{
+    font-size:30px;
+    margin:10px 0px;
+    font-weight:bold;
+}
+
+
+/* Team section end */
+
+
+/* contact section start */
+
+.contact{
+    width:100%;
+    height:600px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZsD6C5FAvlZlpFR7V1boSX35-hedMrbeenQ&usqp=CAU");
+    background-size:cover ;
+    repeat:no-repeat;
+    color:#fff;
+    text-align:center;
+   
+}
+
+.imgContent{
+    margin-top:200px;
+    margin-left:100px;
+    position:absolute;
+    
+}
+
+.hudai{
+    width:100%;
+    height:50px;
+    background: #edf7ff;
+}
+
+.imgContent h3{
+    font-size:40px;
+}
+    
+.imgContent p{
+    font-size:25px;
+    margin:20px 0px 40px 0px;
+
+}
+
+.imgContent input{
+    width:500px;
+    height:60px;
+    background: transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:10px;
+}
+
+.imgContent button{
+    font-size:20px;
+    color:#fff;
+    background: none;
+    border:2px solid #fff;
+    outline:none;
+    font-weight:bold;
+    width:150px;
+    height:64px;
+    border-radius:10px;
+    margin-left:20px;
+}
+
+/* contact section end */
+
+
+/* footer */
+
+footer{
+
+    width:100%;
+    height:280px;
+    background: #3D5781;
+    padding-top:60px;
+}
+
+.footerSection{
+    
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:#fff;
+}
+
+
+.footerSection .social{
+    width:400px;
+    height:200px;
+    text-align:center;
+    
+}
+
+.social i{
+    font-size:35px;
+    margin:0px 20px;
+}
+
+.footerSection h3{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.footerSection .subscribe{
+    width:400px;
+    height:200px;
+    text-align:center;
+}
+
+
+.subscribe input{
+    width:350px;
+    height:40px;
+    background: transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:10px;
+}
+
+.subscribe button{
+    font-size:20px;
+    color:#fff;
+    background: none;
+    border:2px solid #fff;
+    outline:none;
+    font-weight:bold;
+    width:150px;
+    height:40px;
+    border-radius:10px;
+    margin-left:20px;
+}
+
+
+.cpright{
+    font-size:20px;
+    color:#fff;
+    text-align:center;
+    opacity:0.7;
+    padding:25px 0px 20px 0px;
+    
+}
+
+/* footer */
